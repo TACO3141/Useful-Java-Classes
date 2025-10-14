@@ -19,6 +19,7 @@ public class ArrayComps
       {
         temporary = arr[highIndex];
         arr[highIndex] = arr[lowIndex];
+        arr[lowIndex] = temporary;
         highIndex --;
         lowIndex ++;
       }
