@@ -1,6 +1,6 @@
 public class ArrayComps
 {
-  public static reverseString(String[] arr)
+  public static Array reverseString(String[] arr)
   {
     if (arr.length <= 0)
     {
@@ -22,6 +22,7 @@ public class ArrayComps
         highIndex --;
         lowIndex ++;
       }
+      return arr;
     }
   }
 }
