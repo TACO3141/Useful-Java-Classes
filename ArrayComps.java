@@ -95,7 +95,7 @@ public class ArrayComps
     {
       int highIndex = arr.length - 1;
       int lowIndex = 0;
-      char temporary = "a";
+      char temporary = 'a';
       while (lowIndex < highIndex)
       {
         temporary = arr[highIndex];
