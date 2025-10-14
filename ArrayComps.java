@@ -41,7 +41,7 @@ public class ArrayComps
     {
       int highIndex = arr.length - 1;
       int lowIndex = 0;
-      String temporary = "";
+      int temporary = 0;
       while (lowIndex < highIndex)
       {
         temporary = arr[highIndex];
@@ -68,7 +68,7 @@ public class ArrayComps
     {
       int highIndex = arr.length - 1;
       int lowIndex = 0;
-      String temporary = "";
+      double temporary = 0.0;
       while (lowIndex < highIndex)
       {
         temporary = arr[highIndex];
@@ -95,7 +95,7 @@ public class ArrayComps
     {
       int highIndex = arr.length - 1;
       int lowIndex = 0;
-      String temporary = "";
+      char temporary = "a";
       while (lowIndex < highIndex)
       {
         temporary = arr[highIndex];
@@ -122,7 +122,7 @@ public class ArrayComps
     {
       int highIndex = arr.length - 1;
       int lowIndex = 0;
-      String temporary = "";
+      boolean temporary = false;
       while (lowIndex < highIndex)
       {
         temporary = arr[highIndex];
