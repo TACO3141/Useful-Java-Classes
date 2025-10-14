@@ -1,6 +1,6 @@
 public class ArrayComps
 {
-  public static str[] reverseString(String[] arr)
+  public static String[] reverseString(String[] arr)
   {
     if (arr.length <= 0)
     {
