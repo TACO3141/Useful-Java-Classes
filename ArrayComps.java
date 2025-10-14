@@ -4,7 +4,7 @@ public class ArrayComps
   {
     if (arr.length <= 0)
     {
-      throw ArrayIndexOutOfBoundsException("Array has no elements.");
+      throw new ArrayIndexOutOfBoundsException("Array has no elements.");
     }
     else if (arr.length == 1)
     {
@@ -12,8 +12,16 @@ public class ArrayComps
     }
     else
     {
-      int arrayMaxIndex = arr.length - 1;
-      // To finish
+      int highIndex = arr.length - 1;
+      int lowIndex = 0;
+      String temporary = "";
+      while (lowIndex < highIndex)
+      {
+        temporary = arr[highIndex];
+        arr[highIndex] = arr[lowIndex];
+        highIndex --;
+        lowIndex ++;
+      }
     }
   }
 }
